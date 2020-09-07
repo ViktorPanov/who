@@ -9,7 +9,7 @@
 void show_info (struct utmp *utmpfp);
 void show_time (long);
 
-char *ut_type[] = {"EMPTY", "RUN_LVL ", "BOOT_TIME", "OLD_TIME",
+char *ut_type[] = {"EMPTY", "RUN_LVL", "BOOT_TIME", "OLD_TIME",
 			"NEW_TIME", "INIT_PROCESS", "LOGIN_PROCESS",
 			"USER_PROCESS", "DEAD_PROCESS", NULL};
 
